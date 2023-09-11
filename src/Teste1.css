@@ -15,10 +15,19 @@ body {
 
 .teste1__rect {
   flex-shrink: 0;
-
+  justify-content: center;
   width: 128px;
   height: 128px;
-
+  cursor: pointer;
   background-color: black;
   border-radius: 16px;
 }
+
+.items {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
