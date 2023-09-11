@@ -31,7 +31,7 @@ export const Teste1 = () => {
    setModals(prevItems =>
       prevItems.map(item =>{
       if(item.id === index){
-        return { ...item, visible: visible };
+        return { ...item, visible: !item.visible };
       }
              
         return  {...item};

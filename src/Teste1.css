@@ -5,9 +5,9 @@ body {
 .teste1 {
   width: 100vw;
   height: 100vh;
-
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   gap: 16px;
@@ -29,5 +29,8 @@ body {
   justify-content: center;
   align-items: center;
 }
+
+
+
 
 
